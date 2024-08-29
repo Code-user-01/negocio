@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Taopoon Motorbike Rental</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Estilos para centrar el encabezado */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header .logo-img {
+            max-height: 80px;
+            height: auto;
+        }
+
+        header span {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Estilos para la política de privacidad como una carta */
+        #privacy-policy {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+        }
+
+        #privacy-policy h1 {
+            font-size: 2rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #privacy-policy p,
+        #privacy-policy h2 {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        #privacy-policy h2 {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* Estilos para el botón de regresar a la página principal */
+        .back-to-index-button {
+            position: relative; /* Colocación relativa para ajustarlo dentro de su contenedor */
+            display: block;
+            margin: 20px auto; /* Centra el botón horizontalmente */
+            background-color: #ffcc00; /* Color amarillo */
+            color: #333;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 26px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-to-index-button:hover {
+            background-color: #e6b800; /* Efecto de color al pasar el ratón */
+            transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón */
+        }
+
+        /* Contenedor del botón justo encima del footer */
+        .button-container {
+            display: flex;
+            justify-content: flex-end; /* Alinea el botón a la derecha */
+            padding: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Taopoon Motorbike Rental Logo" class="logo-img">
+            <span>Taopoon Motorbike Rental</span>
+        </div>
+    </header>
+
+    <section id="privacy-policy">
+        <h1>Privacy Policy</h1>
+        <p>Effective Date: [Current Date]</p>
+
+        <p>At Taopoon Motorbike Rental, we respect your privacy. This Privacy Policy explains how we handle any information you may share when visiting our website.</p>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <p>Our website is simply a landing page to provide information about our motorbike rental services. We do not automatically collect any personally identifiable information such as names, emails, or addresses through our website.</p>
+
+        <h2>2. Communication Through Contact Links</h2>
+        <p>The only way we might receive personal information is if you choose to contact us directly through the links provided on our site, such as WhatsApp or social media. In such cases, any information you provide will only be used to respond to your inquiry or request.</p>
+
+        <h2>3. Information Security</h2>
+        <p>Although we do not directly collect personal information through our website, we recommend that you always be mindful when sharing any data through third-party platforms like WhatsApp or social media.</p>
+
+        <h2>4. Changes to This Policy</h2>
+        <p>We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page, and the effective date will be updated accordingly.</p>
+
+        <h2>5. Contact</h2>
+        <p>If you have any questions about our Privacy Policy, please contact us via our WhatsApp number or social media channels.</p>
+    </section>
+
+    <!-- Contenedor del botón justo encima del footer -->
+    <div class="button-container">
+        <button id="backToIndexButton" class="back-to-index-button" title="Back to Home">←</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Taopoon Motorbike Rental | 
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms and Conditions</a>
+        </p>
+        <p>Contact us: <a href="tel:0841233094">084-123-3094</a> | <a href="tel:0891613094">089-161-3094</a></p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        // Redirigir al usuario a la página principal (index.html)
+        document.getElementById('backToIndexButton').addEventListener('click', function () {
+            window.location.href = 'index.html';
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,947 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #33333321;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header */
+/* Header fijo o sticky */
+header {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky; /* Hace que el header sea pegajoso */
+    top: 0; /* Posición superior del header */
+    z-index: 1000; /* Asegura que el header esté sobre otros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: clamp(1.2rem, 3.5vw, 1.8rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.3s ease;
+    color: #f39c12;
+    max-width: 100%;
+}
+
+@media (max-width: 576px) {
+    header .logo {
+        font-size: 1rem;
+    }
+}
+
+header .logo-img {
+    max-height: 50px;
+    height: auto;
+    width: auto;
+}
+
+header .logo span {
+    font-size: inherit;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #f39c12;
+    background-color: transparent;
+}
+
+header .hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Centrado y estilos de íconos sociales */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    gap: 20px; /* Espacio entre los íconos */
+    margin-top: 20px; /* Espacio adicional arriba */
+    align-items: center; /* Alinea los íconos verticalmente */
+}
+
+.social-icon-img {
+    width: 40px; /* Tamaño del ícono */
+    height: 40px; /* Mantiene la proporción del ícono */
+    transition: transform 0.3s ease; /* Efecto de transición suave */
+}
+
+.social-icon:hover .social-icon-img {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón */
+}
+
+@media (max-width: 990px) {
+    header .hamburger {
+        display: block;
+    }
+
+    header nav, header .social-icons, header #language-toggle {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .social-icons {
+        margin-right: 30px;
+        display: flex;
+    }
+}
+
+/* Menú hamburguesa (visible solo en móviles) */
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    z-index: 1000;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+#mobile-nav.mobile-nav-visible {
+    transform: translateX(0);
+}
+
+#mobile-nav .profile-picture {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #fff;
+    background-color: #fff;
+}
+
+#mobile-nav .profile-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#mobile-nav nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mobile-nav nav a {
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#mobile-nav .social-icons {
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+    display: flex;
+}
+
+/* Secciones */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+section h1, section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+/* Tarjetas de precios */
+.rental-prices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background-color: #fdfdfd;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    flex: 1;
+    margin: 10px;
+}
+
+.price-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.price-card h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.price-card p {
+    font-size: 20px;
+    margin: 5px 0;
+    color: #000000;
+}
+
+/* Reseñas */
+.reviews {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.review {
+    background-color: #f7f7f7;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.review h4 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.review p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.review span {
+    color: #f39c12;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #e67e22;
+}
+
+/* Estilos responsivos para el iframe y el video */
+.maps-embed iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .maps-embed iframe {
+        height: 300px;
+    }
+}
+
+/* Estilos para mostrar y ocultar el menú hamburguesa en móviles */
+@media (max-width: 1190px) {
+    header .hamburger {
+        display: block;
+    }
+
+    header nav, header .social-icons, header #language-toggle {
+        display: none;
+    }
+}
+
+/* Mostrar banderas dentro del menú móvil */
+#mobile-nav #language-toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Ajustes para los botones de banderas */
+.flag-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.3s ease;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.flag-btn .flag-img {
+    width: 24px;
+    height: auto;
+}
+
+.flag-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Ajuste de visibilidad y posición de contenedor de botones de idioma */
+.language-toggle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+}
+/*********************************************************/
+/* Estilos para la sección "Inicio" con slider de fondo */
+.slider-section {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Asegura que la sección ocupe toda la altura de la ventana */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.slides {
+    display: flex;
+    width: 100%; /* Ajusta el ancho al 100% */
+    height: 100%; /* Asegura que el alto ocupe toda la sección */
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%); /* Reduce el brillo de la imagen */
+}
+
+/* Definición de variables de estilo en :root */
+:root {
+    --text-color-white: #fff; /* Color de texto blanco */
+    --background-overlay: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    --box-shadow-3d: 0 8px 20px rgba(0, 0, 0, 0.5); /* Sombra 3D para el contenedor */
+    --text-shadow-3d: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Sombra 3D para el texto */
+}
+
+/* Mejora del estilo del contenedor de texto */
+.inicio-content {
+    position: relative;
+    z-index: 10;
+    color: var(--text-color-white); /* Uso de la variable para el color del texto */
+    text-align: center;
+    padding: 30px;
+    background-color: var(--background-overlay); /* Uso de la variable para el fondo */
+    border-radius: 15px; /* Bordes redondeados más pronunciados */
+    box-shadow: var(--box-shadow-3d); /* Uso de la variable para la sombra 3D */
+    max-width: 800px; /* Ancho máximo para el contenedor */
+    margin: 0 auto; /* Centrado horizontal */
+}
+
+/* Mejora del estilo del texto */
+.inicio-content h1,
+.inicio-content p {
+    text-shadow: var(--text-shadow-3d); /* Uso de la variable para la sombra del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-weight: 700; /* Texto más grueso */
+    color: var(--text-color-white); /* Reaplicar color de texto blanco */
+}
+
+/* Efecto de sombra adicional para un efecto 3D */
+.inicio-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.3); /* Sombra interna para mayor profundidad */
+    pointer-events: none; /* Asegura que esta sombra no interfiera con la interacción del usuario */
+}
+/* Definir animaciones clave */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+/* Aplicar la animación de desvanecimiento y desplazamiento a los elementos del contenido */
+.inicio-content h1,
+.inicio-content p,
+.inicio-content .social-icons {
+    animation: fadeInUp 1s ease-out forwards; /* Animación de desvanecimiento y deslizamiento */
+    opacity: 0; /* Ocultar inicialmente para el efecto */
+}
+
+/* Retrasos de animación para un efecto escalonado */
+.inicio-content h1 {
+    animation-delay: 0.2s; /* Comienza después de 0.2 segundos */
+}
+
+.inicio-content p {
+    animation-delay: 0.4s; /* Comienza después de 0.4 segundos */
+}
+
+.inicio-content .social-icons {
+    animation-delay: 0.6s; /* Comienza después de 0.6 segundos */
+}
+
+/* Efecto de zoom para las imágenes del slider */
+.slide img {
+    animation: zoomIn 10s ease-in-out infinite alternate; /* Animación de zoom suave */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/**************************************************************/
+
+
+/* Estilos para la animación al ingresar a la sección "Nosotros" */
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Estilos para la sección "Nosotros" */
+#nosotros {
+    padding: 60px 20px;
+    display: flex; /* Utilizamos Flexbox para organizar el contenido en filas */
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Inicia invisible para la animación */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Transiciones suaves */
+}
+
+/* Estilos para el título */
+#nosotros h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    text-align: center; /* Centra el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Contenedor del contenido de texto e imagen */
+.nosotros-content-wrapper {
+    display: flex; /* Flexbox para alinear texto y slider horizontalmente */
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    justify-content: space-between; /* Espacio entre los elementos */
+    gap: 20px; /* Espacio entre texto y slider */
+}
+
+/* Estilo del contenido de texto */
+.nosotros-content {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    text-align: left; /* Alineación del texto a la izquierda */
+    color: #555;
+}
+
+/* Estilo del slider */
+.nosotros-slider {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    max-width: 600px; /* Ancho máximo del slider */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra alrededor del slider */
+}
+
+.nosotros-slider .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros-slider .slide {
+    min-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.nosotros-slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen para cubrir sin distorsión */
+}
+/* Estilos responsivos para la sección "Nosotros" */
+.nosotros-content-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea en pantallas pequeñas */
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .nosotros-content-wrapper {
+        flex-direction: column; /* Apila el contenido verticalmente en dispositivos móviles */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .nosotros-content,
+    .nosotros-slider {
+        max-width: 100%; /* Asegura que ocupen todo el ancho en móviles */
+    }
+}
+
+/* Estilo del slider con tamaño fijo */
+.nosotros-slider {
+    flex: 1;
+    max-width: 600px; /* Ancho máximo del slider */
+    height: 400px; /* Altura fija del slider */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nosotros-slider .slides {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros-slider .slide {
+    min-width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.nosotros-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen cubra todo el contenedor */
+    display: block; /* Asegura que la imagen se comporte como un bloque y elimine cualquier espacio extra */
+}
+/* Estilos para las imágenes de los planes */
+.plan-image {
+    width: 100%; /* Ajusta la imagen al ancho de la tarjeta */
+    height: auto;
+    margin-bottom: 15px; /* Espacio debajo de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0); /* Sombra alrededor de la imagen */
+}
+
+/***************************************************************/
+
+
+/* Estilo de la sección "Taller" */
+/* Contenedor principal de la sección Taller */
+#taller {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    flex-direction: column; /* Alinea los elementos en columna */
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#taller h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Contenedor principal de la sección "Taller" */
+.taller-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Descripción alineada a la izquierda */
+.taller-description {
+    flex: 1;
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #555;
+    padding-right: 20px;
+    font-size: 18px; /* Tamaño de fuente ajustado para mayor legibilidad */
+    line-height: 1.8;
+    max-width: 700px; /* Ancho máximo para asegurar legibilidad */
+    margin: 0 auto; /* Centra el contenedor del párrafo */
+    display: flex; /* Habilita Flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el texto */
+}
+
+/* Ajuste del texto responsivo para móviles */
+@media (max-width: 768px) {
+    .taller-description {
+        font-size: 24px; /* Tamaño de fuente más grande en móviles */
+        padding-right: 0;
+        margin: 0 auto;
+    }
+}
+/* Tarjeta de negocio */
+.business-card {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 12px; /* Bordes más suaves */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Sombra más visible */
+    padding: 5px;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 1000px;
+    overflow-y: auto;
+    transition: all 0.3s ease; /* Animación suave para cambios */
+}
+
+/* Ajuste del iframe dentro de la tarjeta */
+.business-card .maps-embed iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las reseñas dentro de la tarjeta */
+.business-card .reviews {
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Ajuste de estilo para las reseñas */
+.business-card .review {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.business-card .review:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos responsivos para móviles */
+@media (max-width: 768px) {
+    .taller-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .taller-description,
+    .business-card {
+        max-width: 95%; /* Ancho máximo para que quepa mejor en móviles */
+        padding: 10px; /* Reducción de padding en móviles */
+        margin: 10px auto; /* Centrado con margen */
+    }
+
+    .business-card {
+        max-height: 400px; /* Ajusta la altura máxima en móviles */
+        padding: 15px; /* Ajuste de padding en móviles */
+    }
+}
+/* Estilo para las fotos de reseñas */
+.review-photo {
+    width: 60px; /* Tamaño más grande para mejor visibilidad */
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    flex-shrink: 0; /* Evita que la imagen se reduzca en tamaño */
+}
+
+/* Ajuste de estilo para las reseñas con fotos */
+.review {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Hace que el contenedor de reseñas sea flexible */
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+.review:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sombra más fuerte al pasar el mouse */
+}
+
+/* Estilo para el texto de las reseñas */
+.review h4 {
+    font-size: 18px; /* Tamaño más grande para el nombre */
+    font-weight: bold;
+    margin: 0 0 5px; /* Alineación adecuada del nombre */
+}
+
+.review span {
+    color: #f39c12;
+    font-size: 16px; /* Ajusta el tamaño de la calificación */
+    margin-left: 5px; /* Espacio entre el nombre y las estrellas */
+}
+
+.review p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Contenedor para el texto */
+.review-content {
+    display: flex;
+    flex-direction: column; /* Apila el texto y el nombre verticalmente */
+}
+
+/* Mejora del layout de la reseña */
+.review > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px; /* Espacio entre la foto y el texto */
+}
+/* Estilo para los botones de WhatsApp */
+.whatsapp-button {
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #25D366; /* Color verde de WhatsApp */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Color más oscuro al pasar el ratón */
+}
+
+/* Responsividad de las tarjetas de precio */
+@media (max-width: 768px) {
+    .rental-prices {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-card {
+        max-width: 90%;
+    }
+}
+/* Botón flotante de "scroll to top" */
+.scroll-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #f39c12; /* Color amarillo (igual que los términos y condiciones) */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    display: none; /* Oculto por defecto */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Para estar por encima de otros elementos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-top-button:hover {
+    background-color: #e67e22; /* Color ligeramente más oscuro al pasar el ratón */
+    transform: translateY(-5px); /* Animación al pasar el ratón */
+}
+
+/* Estilos especiales para los títulos de las secciones */
+#nosotros h2,
+#renta h2,
+#taller h2 {
+    color: #f39c12; /* Color amarillo igual que los términos y condiciones */
+}
+/* Preloader Styles */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Fondo negro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Asegura que esté sobre todos los elementos */
+    overflow: hidden;
+    opacity: 1; /* Comienza completamente visible */
+    transition: opacity 1s ease-out; /* Efecto de desvanecimiento */
+}
+
+#preloader.fade-out {
+    opacity: 0; /* Cambia la opacidad para desvanecer */
+    visibility: hidden; /* Oculta completamente después del desvanecimiento */
+}
+
+.preloader-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.preloader-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.loading-icon {
+    position: absolute;
+    top: 60%;
+    font-size: 48px; /* Tamaño del icono */
+    animation: spin 1.5s linear infinite;
+    color: #f39c12;
+    text-align: center;
+}
+
+.loading-text {
+    position: absolute;
+    top: 70%;
+    font-size: 80px; /* Tamaño del texto */
+    color: #f39c12;
+    text-align: center;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
