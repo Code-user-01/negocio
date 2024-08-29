@@ -1,0 +1,609 @@
+{
+    "es": {
+      "header": {
+        "inicio": "INICIO",
+        "nosotros": "NOSOTROS",
+        "renta": "RENTA",
+        "taller": "TALLER"
+      },
+      "inicio": {
+ "titulo": "Motocicletas y scooters en alquiler cerca de la estación MRT Taopoon, área de Bangkok",
+      "subtitulo": "Tienda de alquiler de motocicletas<br>Servicio de alquiler de motocicletas en Bangkok<br>Diario / Semanal / Mensual<br>084-123-3094 | 089-161-3094"
+      },
+      "nosotros": {
+        "titulo": "Quiénes Somos",
+        "descripcion": "En Taopoon Motorbike Rental, llevamos más de 6 años ofreciendo servicios de alquiler de motos. <br> Nuestra pasión por las motos y el compromiso con la calidad nos han convertido en líderes del sector. <br>Siempre tenemos motos disponibles para tus viajes y aventuras. <br>Ven y descubre por qué tantos motociclistas confían en nosotros."
+      },
+      "renta": {
+        "titulo": "Rentar",
+        "planes": "Nuestros planes",
+        "scoopy": {
+          "nombre": "Scoopy",
+          "dia": "250/฿ día",
+          "semana": "1500/฿ semana",
+          "mes": "3500/฿ mes"
+        },
+        "click125": {
+          "nombre": "Click 125",
+          "dia": "350/฿ día",
+          "semana": "2100/฿ semana",
+          "mes": "5500/฿ mes"
+        }
+      },
+    
+      "taller": {
+        "titulo": "Taller",
+        "descripcion": "En Taopoon Motorbike Rental, contamos con un equipo de expertos que cuidan cada detalle para que nuestras motos estén siempre en perfectas condiciones. Queremos que disfrutes de una experiencia de conducción segura y placentera en cada aventura."
+      },
+      "reseñas": {
+        "titulo": "Taopoon Motorbike Rental",
+        "rating": "Rating: 4.8 ⭐⭐⭐⭐⭐",
+        "total_reseñas": "Total de reseñas: 125",
+        "reseñas_usuarios": "Reseñas de usuarios:",
+        "reseñas": [
+          {
+            "nombre": "John Smith",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visitar Bangkok por primera vez y alquilar una Scoopy aquí fue la mejor decisión. El personal fue increíblemente servicial sugiriendo rutas y lugares que no podía perderme."
+          },
+          {
+            "nombre": "Ana Gómez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Soy residente en Bangkok, y alquilar una Click 125 aquí siempre es una experiencia positiva. Tienen los mejores precios y un servicio excelente."
+          },
+          {
+            "nombre": "Carlos Martínez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "He vivido en Bangkok por años y siempre recomiendo este lugar a mis amigos. La Scoopy es perfecta para moverse por la ciudad, y el personal es muy amable."
+          },
+          {
+            "nombre": "Lucía Fernández",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visité Bangkok por negocios y la Click 125 que alquilé aquí fue ideal para desplazarme rápidamente. Además, compré unos accesorios de excelente calidad."
+          },
+          {
+            "nombre": "Pedro Sánchez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Soy local y alquilé una Scoopy para un viaje corto. El personal fue muy profesional y me ayudó a encontrar la mejor ruta. ¡Muy recomendado!"
+          },
+          {
+            "nombre": "Maria López",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visitar Bangkok fue increíble, y tener una Click 125 hizo que la experiencia fuera aún mejor. El personal fue muy amable y me dieron excelentes recomendaciones para explorar la ciudad."
+          },
+          {
+            "nombre": "Jorge García",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Vivo en Bangkok y este es mi lugar de confianza para alquilar motos. La Scoopy está siempre en excelentes condiciones, y la ubicación es perfecta."
+          },
+          {
+            "nombre": "Laura Herrera",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Soy viajera frecuente a Bangkok, y alquilar una Click 125 aquí fue muy conveniente. El personal es muy cortés y el proceso fue rápido y fácil."
+          },
+          {
+            "nombre": "Ricardo Torres",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "He vivido en Bangkok por un tiempo, y este lugar nunca me decepciona. La Scoopy es genial, y tienen una excelente selección de productos para motoristas."
+          },
+          {
+            "nombre": "Sofía Ruiz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Como turista, encontrar un buen lugar para alquilar una Click 125 era crucial, ¡y este lugar no decepcionó! El personal fue muy acogedor y la moto fue perfecta para la ciudad."
+          },
+          {
+            "nombre": "David Castro",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Soy residente de Bangkok y me encanta este lugar. La Scoopy que alquilé estaba impecable, y el servicio es siempre de primera."
+          },
+          {
+            "nombre": "Camila Ortiz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Viajar a Bangkok fue una gran experiencia, y alquilar una Click 125 aquí la hizo aún mejor. El personal fue muy amable y brindó un excelente servicio."
+          },
+          {
+            "nombre": "Andrés Díaz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Llevo años viviendo en Bangkok y este es el mejor lugar para alquilar una Scoopy. El personal siempre es amable y profesional."
+          },
+          {
+            "nombre": "Paula Vargas",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Soy local y encontré aquí todo lo que necesitaba. Alquilé una Click 125 y compré algunos accesorios, todo a un precio excelente."
+          },
+          {
+            "nombre": "Manuel Rojas",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "La ubicación es excelente, y el personal se aseguró de que tuviera todo lo necesario para mi viaje por Bangkok. La Scoopy que alquilé estaba en perfectas condiciones."
+          },
+          {
+            "nombre": "Natalia Romero",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Resido en Bangkok y este es mi lugar favorito para alquilar una moto. La Click 125 es perfecta, y el personal es siempre atento y servicial."
+          },
+          {
+            "nombre": "José Méndez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visitar Bangkok fue increíble, y alquilar una Scoopy aquí lo hizo aún mejor. El personal fue extremadamente amable y profesional."
+          },
+          {
+            "nombre": "Valentina Sánchez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Soy local y alquilar una Click 125 aquí es siempre una experiencia sin complicaciones. La zona es muy conveniente y segura."
+          },
+          {
+            "nombre": "Santiago Muñoz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Viviendo en Bangkok, es genial tener un lugar confiable para alquilar motos. La Scoopy siempre está en perfectas condiciones y el servicio es impecable."
+          },
+          {
+            "nombre": "Gabriela Castillo",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Como visitante de Bangkok por primera vez, alquilar una Click 125 aquí fue una experiencia fantástica. El personal fue extremadamente servicial y la moto fue perfecta."
+          }
+        ]
+      },
+      "footer": {
+        "texto": "© 2024 Taopoon Motorbike Rental",
+        "privacidad": "Política de Privacidad",
+        "terminos": "Términos y Condiciones",
+        "contacto": "Contáctanos: 084-123-3094 | 089-161-3094"
+      }
+    },
+    "en": {
+      "header": {
+        "inicio": "START",
+        "nosotros": "ABOUT US",
+        "renta": "RENT",
+        "taller": "WORKSHOP"
+      },
+      "inicio": {
+ "titulo": "Motorbike & Scooter for Rent near MRT Taopoon Station, Bangkok area",
+      "subtitulo": "Motorbike Rental Shop<br>Motorbike Rental Service in Bangkok<br>Daily / Weekly / Monthly<br>084-123-3094 | 089-161-3094"
+      },
+      "nosotros": {
+        "titulo": "Who We Are",
+        "descripcion": "At Taopoon Motorbike Rental, we've been providing motorbike rental services for over 6 years. <br>Our passion for motorbikes and commitment to quality have made us a leader in the industry. <br>We always have bikes available for your trips and adventures. <br>Come and see why so many riders trust us."
+      },
+     
+      "renta": {
+        "titulo": "Rent",
+        "planes": "Our Plans",
+        "scoopy": {
+          "nombre": "Scoopy",
+          "dia": "250/฿ per day",
+          "semana": "1500/฿ per week",
+          "mes": "3500/฿ per month"
+        },
+        "click125": {
+          "nombre": "Click 125",
+          "dia": "350/฿ per day",
+          "semana": "2100/฿ per week",
+          "mes": "5500/฿ per month"
+        }
+      },
+      
+      "taller": {
+        "titulo": "Workshop",
+        "descripcion": "At Taopoon Motorbike Rental, our team of experts takes care of every detail to ensure our motorbikes are always in perfect condition. We want you to enjoy a safe and enjoyable riding experience on every adventure."
+      },
+      "reseñas": {
+        "titulo": "Taopoon Motorbike Rental",
+        "rating": "Rating: 4.8 ⭐⭐⭐⭐⭐",
+        "total_reseñas": "Total reviews: 125",
+        "reseñas_usuarios": "User Reviews:",
+        "reseñas": [
+          {
+            "nombre": "John Smith",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visiting Bangkok for the first time and renting a Scoopy here was the best decision. The staff was incredibly helpful in suggesting routes and places I couldn't miss."
+          },
+          {
+            "nombre": "Ana Gómez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I am a resident in Bangkok, and renting a Click 125 here is always a positive experience. They have the best prices and excellent service."
+          },
+          {
+            "nombre": "Carlos Martínez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I have lived in Bangkok for years and always recommend this place to my friends. The Scoopy is perfect for getting around the city, and the staff is very friendly."
+          },
+          {
+            "nombre": "Lucía Fernández",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I visited Bangkok for business, and the Click 125 I rented here was ideal for getting around quickly. Plus, I bought some high-quality accessories."
+          },
+          {
+            "nombre": "Pedro Sánchez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I am a local and rented a Scoopy for a short trip. The staff was very professional and helped me find the best route. Highly recommended!"
+          },
+          {
+            "nombre": "Maria López",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visiting Bangkok was incredible, and having a Click 125 made the experience even better. The staff was very friendly and gave me excellent recommendations for exploring the city."
+          },
+          {
+            "nombre": "Jorge García",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I live in Bangkok, and this is my go-to place for renting motorcycles. The Scoopy is always in excellent condition, and the location is perfect."
+          },
+          {
+            "nombre": "Laura Herrera",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I am a frequent traveler to Bangkok, and renting a Click 125 here was very convenient. The staff is very polite, and the process was quick and easy."
+          },
+          {
+            "nombre": "Ricardo Torres",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I have lived in Bangkok for some time, and this place never disappoints. The Scoopy is great, and they have an excellent selection of products for bikers."
+          },
+          {
+            "nombre": "Sofía Ruiz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "As a tourist, finding a good place to rent a Click 125 was crucial, and this place did not disappoint! The staff was very welcoming, and the bike was perfect for the city."
+          },
+          {
+            "nombre": "David Castro",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I am a resident of Bangkok and love this place. The Scoopy I rented was spotless, and the service is always top-notch."
+          },
+          {
+            "nombre": "Camila Ortiz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Traveling to Bangkok was a great experience, and renting a Click 125 here made it even better. The staff was very friendly and provided excellent service."
+          },
+          {
+            "nombre": "Andrés Díaz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I have been living in Bangkok for years, and this is the best place to rent a Scoopy. The staff is always friendly and professional."
+          },
+          {
+            "nombre": "Paula Vargas",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I am a local and found everything I needed here. I rented a Click 125 and bought some accessories, all at an excellent price."
+          },
+          {
+            "nombre": "Manuel Rojas",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "The location is excellent, and the staff made sure I had everything I needed for my trip around Bangkok. The Scoopy I rented was in perfect condition."
+          },
+          {
+            "nombre": "Natalia Romero",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I reside in Bangkok, and this is my favorite place to rent a motorcycle. The Click 125 is perfect, and the staff is always attentive and helpful."
+          },
+          {
+            "nombre": "José Méndez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visiting Bangkok was amazing, and renting a Scoopy here made it even better. The staff was extremely friendly and professional."
+          },
+          {
+            "nombre": "Valentina Sánchez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "I am a local, and renting a Click 125 here is always a hassle-free experience. The area is very convenient and safe."
+          },
+          {
+            "nombre": "Santiago Muñoz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Living in Bangkok, it's great to have a reliable place to rent motorcycles. The Scoopy is always in perfect condition, and the service is impeccable."
+          },
+          {
+            "nombre": "Gabriela Castillo",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "As a first-time visitor to Bangkok, renting a Click 125 here was a fantastic experience. The staff was extremely helpful, and the bike was perfect."
+          }
+        ]
+      },
+      "footer": {
+        "texto": "© 2024 Taopoon Motorbike Rental",
+        "privacidad": "Privacy Policy",
+        "terminos": "Terms and Conditions",
+        "contacto": "Contact us: 084-123-3094 | 089-161-3094"
+      }
+    },
+    "fr": {
+      "header": {
+        "inicio": "DÉBUT",
+        "nosotros": "À PROPOS DE NOUS",
+        "renta": "LOCATION",
+        "taller": "ATELIER"
+      },
+      "inicio": {
+"titulo": "Location de motos et scooters près de la station MRT Taopoon, région de Bangkok",
+      "subtitulo": "Magasin de location de motos<br>Service de location de motos à Bangkok<br>Quotidien / Hebdomadaire / Mensuel<br>084-123-3094 | 089-161-3094"
+      },
+      "nosotros": {
+        "titulo": "Qui Nous Sommes",
+        "descripcion": "Chez Taopoon Motorbike Rental, nous offrons des services de location de motos depuis plus de 6 ans. <br>Notre passion pour les motos et notre engagement envers la qualité nous ont fait devenir un leader du secteur. <br>Nous avons toujours des motos disponibles pour vos voyages et aventures. <br>Venez découvrir pourquoi tant de motards nous font confiance."
+      },
+      "renta": {
+        "titulo": "Louer",
+        "planes": "Nos Plans",
+        "scoopy": {
+          "nombre": "Scoopy",
+          "dia": "250/฿ par jour",
+          "semana": "1500/฿ par semaine",
+          "mes": "3500/฿ par mois"
+        },
+        "click125": {
+          "nombre": "Click125",
+          "dia": "350/฿ par jour",
+          "semana": "2100/฿ par semaine",
+          "mes": "5500/฿ par mois"
+        }
+      },
+     
+      "taller": {
+        "titulo": "Atelier",
+        "descripcion": "Chez Taopoon Motorbike Rental, notre équipe d'experts prend soin de chaque détail pour que nos motos soient toujours en parfait état. Nous souhaitons que vous profitiez d'une expérience de conduite sûre et agréable à chaque aventure."
+      },
+      "reseñas": {
+        "titulo": "Taopoon Motorbike Rental",
+        "rating": "Note: 4.8 ⭐⭐⭐⭐⭐",
+        "total_reseñas": "Total des avis: 125",
+        "reseñas_usuarios": "Avis des utilisateurs:",
+        "reseñas": [
+          {
+            "nombre": "John Smith",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visiter Bangkok pour la première fois et louer une Scoopy ici a été la meilleure décision. Le personnel a été incroyablement serviable en suggérant des itinéraires et des endroits à ne pas manquer."
+          },
+          {
+            "nombre": "Ana Gómez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je suis résidente à Bangkok, et louer une Click 125 ici est toujours une expérience positive. Ils ont les meilleurs prix et un service excellent."
+          },
+          {
+            "nombre": "Carlos Martínez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "J'ai vécu à Bangkok pendant des années et je recommande toujours cet endroit à mes amis. La Scoopy est parfaite pour se déplacer en ville, et le personnel est très sympathique."
+          },
+          {
+            "nombre": "Lucía Fernández",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "J'ai visité Bangkok pour affaires et la Click 125 que j'ai louée ici était idéale pour me déplacer rapidement. De plus, j'ai acheté des accessoires de grande qualité."
+          },
+          {
+            "nombre": "Pedro Sánchez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je suis local et j'ai loué une Scoopy pour un court voyage. Le personnel était très professionnel et m'a aidé à trouver le meilleur itinéraire. Très recommandé!"
+          },
+          {
+            "nombre": "Maria López",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visiter Bangkok a été incroyable, et avoir une Click 125 a rendu l'expérience encore meilleure. Le personnel était très amical et m'a donné d'excellentes recommandations pour explorer la ville."
+          },
+          {
+            "nombre": "Jorge García",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je vis à Bangkok, et c'est mon endroit de confiance pour louer des motos. La Scoopy est toujours en excellent état, et l'emplacement est parfait."
+          },
+          {
+            "nombre": "Laura Herrera",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je suis une voyageuse fréquente à Bangkok, et louer une Click 125 ici était très pratique. Le personnel est très poli et le processus a été rapide et facile."
+          },
+          {
+            "nombre": "Ricardo Torres",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "J'ai vécu à Bangkok pendant un certain temps, et cet endroit ne me déçoit jamais. La Scoopy est géniale, et ils ont une excellente sélection de produits pour motards."
+          },
+          {
+            "nombre": "Sofía Ruiz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "En tant que touriste, trouver un bon endroit pour louer une Click 125 était crucial, et cet endroit n'a pas déçu! Le personnel était très accueillant, et la moto était parfaite pour la ville."
+          },
+          {
+            "nombre": "David Castro",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je suis résident de Bangkok et j'adore cet endroit. La Scoopy que j'ai louée était impeccable, et le service est toujours de première classe."
+          },
+          {
+            "nombre": "Camila Ortiz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Voyager à Bangkok a été une excellente expérience, et louer une Click 125 ici l'a rendue encore meilleure. Le personnel était très amical et a fourni un excellent service."
+          },
+          {
+            "nombre": "Andrés Díaz",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je vis à Bangkok depuis des années, et c'est le meilleur endroit pour louer une Scoopy. Le personnel est toujours amical et professionnel."
+          },
+          {
+            "nombre": "Paula Vargas",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je suis local et j'ai trouvé ici tout ce dont j'avais besoin. J'ai loué une Click 125 et acheté quelques accessoires, tout à un excellent prix."
+          },
+          {
+            "nombre": "Manuel Rojas",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "L'emplacement est excellent, et le personnel a veillé à ce que j'aie tout ce dont j'avais besoin pour mon voyage à Bangkok. La Scoopy que j'ai louée était en parfait état."
+          },
+          {
+            "nombre": "Natalia Romero",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Je réside à Bangkok et c'est mon endroit préféré pour louer une moto. La Click 125 est parfaite, et le personnel est toujours attentif et serviable."
+          },
+          {
+            "nombre": "José Méndez",
+            "rating": "⭐⭐⭐⭐⭐",
+            "comentario": "Visiter Bangkok a été incroyable, et louer une Scoopy ici l'a rendu encore meilleur. Le personnel était extrêmement amical et professionnel."
+        },
+        {
+          "nombre": "Valentina Sánchez",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "Je suis local et louer une Click 125 ici est toujours une expérience sans tracas. La zone est très pratique et sécurisée."
+        },
+        {
+          "nombre": "Santiago Muñoz",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "Vivant à Bangkok, c'est génial d'avoir un endroit fiable pour louer des motos. La Scoopy est toujours en parfait état, et le service est impeccable."
+        },
+        {
+          "nombre": "Gabriela Castillo",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "En tant que première visiteuse à Bangkok, louer une Click 125 ici a été une expérience fantastique. Le personnel était extrêmement serviable et la moto était parfaite."
+        }
+      ]
+    },
+"footer": {
+      "texto": "© 2024 Taopoon Motorbike Rental",
+      "privacidad": "Politique de Confidentialité",
+      "terminos": "Conditions Générales",
+      "contacto": "Contactez-nous : 084-123-3094 | 089-161-3094"
+    }
+  },
+  "th": {
+    "header": {
+      "inicio": "เริ่มต้น",
+      "nosotros": "เกี่ยวกับเรา",
+      "renta": "เช่า",
+      "taller": "เวิร์คช็อป"
+    },
+    "inicio": {
+ "titulo": "เช่ามอเตอร์ไซค์และสกู๊ตเตอร์ ใกล้สถานี MRT เตาปูน ในพื้นที่กรุงเทพ",
+      "subtitulo": "ร้านเช่ามอเตอร์ไซค์<br>บริการเช่ามอเตอร์ไซค์ในกรุงเทพ<br>รายวัน / รายสัปดาห์ / รายเดือน<br>084-123-3094 | 089-161-3094"
+    },
+    "nosotros": {
+      "titulo": "เราเป็นใคร",
+       "descripcion": "ที่ Taopoon Motorbike Rental เราให้บริการเช่ามอเตอร์ไซค์มากว่า 6 ปี<br><br>ความหลงใหลในมอเตอร์ไซค์และความมุ่งมั่นในคุณภาพทำให้เราเป็นผู้นำในวงการเสมอ<br><br>เรามีมอเตอร์ไซค์พร้อมให้บริการสำหรับการเดินทางและการผจญภัยของคุณอยู่เสมอ<br><br> มาดูกันว่าทำไมนักขี่หลายคนถึงไว้วางใจเรา"
+    },
+   
+    "renta": {
+      "titulo": "เช่า",
+      "planes": "แผนการของเรา",
+      "scoopy": {
+        "nombre": "Scoopy",
+        "dia": "250/฿ ต่อวัน",
+        "semana": "1500/฿ ต่อสัปดาห์",
+        "mes": "3500/฿ ต่อเดือน"
+      },
+      "click125": {
+        "nombre": "Click125",
+        "dia": "350/฿ ต่อวัน",
+        "semana": "2100/฿ ต่อสัปดาห์",
+        "mes": "5500/฿ ต่อเดือน"
+      }
+    },
+   
+    "taller": {
+      "titulo": "เวิร์คช็อป",
+      "descripcion": "ที่ Taopoon Motorbike Rental ทีมผู้เชี่ยวชาญของเราดูแลทุกรายละเอียดเพื่อให้มอเตอร์ไซค์ของเราอยู่ในสภาพสมบูรณ์พร้อมเสมอ เราต้องการให้คุณสนุกกับการขับขี่อย่างปลอดภัยและเพลิดเพลินในทุกการผจญภัย"
+    },
+    "reseñas": {
+      "titulo": "Taopoon Motorbike Rental",
+      "rating": "เรตติ้ง: 4.8 ⭐⭐⭐⭐⭐",
+      "total_reseñas": "จำนวนรีวิวทั้งหมด: 125",
+      "reseñas_usuarios": "รีวิวจากผู้ใช้:",
+      "reseñas": [
+        {
+          "nombre": "John Smith",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "การมาเยือนกรุงเทพฯ ครั้งแรกและการเช่า Scoopy ที่นี่เป็นการตัดสินใจที่ดีที่สุด พนักงานให้ความช่วยเหลือเป็นอย่างดีในการแนะนำเส้นทางและสถานที่ที่ไม่ควรพลาด"
+        },
+        {
+          "nombre": "Ana Gómez",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันเป็นชาวกรุงเทพฯ และการเช่า Click 125 ที่นี่เป็นประสบการณ์ที่ดีเสมอ พวกเขามีราคาที่ดีที่สุดและบริการที่ยอดเยี่ยม"
+        },
+        {
+          "nombre": "Carlos Martínez",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันอาศัยอยู่ในกรุงเทพฯ มาหลายปีแล้วและแนะนำที่นี่ให้กับเพื่อนๆ เสมอ Scoopy เหมาะอย่างยิ่งสำหรับการขับขี่ในเมือง และพนักงานเป็นกันเองมาก"
+        },
+        {
+          "nombre": "Lucía Fernández",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันมาเยือนกรุงเทพฯ เพื่อทำธุรกิจ และ Click 125 ที่ฉันเช่าที่นี่นั้นเหมาะสำหรับการเดินทางอย่างรวดเร็ว นอกจากนี้ฉันยังซื้ออุปกรณ์เสริมคุณภาพเยี่ยมอีกด้วย"
+        },
+        {
+          "nombre": "Pedro Sánchez",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันเป็นคนท้องถิ่นและเช่า Scoopy สำหรับการเดินทางระยะสั้น พนักงานมีความเป็นมืออาชีพมากและช่วยฉันหาทางที่ดีที่สุด แนะนำเป็นอย่างยิ่ง!"
+        },
+        {
+          "nombre": "Maria López",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "การมาเยือนกรุงเทพฯ นั้นน่าทึ่งมาก และการมี Click 125 ทำให้ประสบการณ์ดียิ่งขึ้น พนักงานเป็นกันเองมากและให้คำแนะนำที่ดีเยี่ยมในการสำรวจเมือง"
+        },
+        {
+          "nombre": "Jorge García",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันอาศัยอยู่ในกรุงเทพฯ และนี่คือสถานที่ที่ฉันไว้วางใจในการเช่ามอเตอร์ไซค์ Scoopy อยู่ในสภาพที่ยอดเยี่ยมเสมอ และทำเลที่ตั้งก็สมบูรณ์แบบ"
+        },
+        {
+          "nombre": "Laura Herrera",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันเป็นนักเดินทางประจำกรุงเทพฯ และการเช่า Click 125 ที่นี่สะดวกมาก พนักงานสุภาพมาก และกระบวนการก็รวดเร็วและง่ายดาย"
+        },
+        {
+          "nombre": "Ricardo Torres",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันอาศัยอยู่ในกรุงเทพฯ มาระยะหนึ่งแล้วและที่นี่ไม่เคยทำให้ฉันผิดหวัง Scoopy เยี่ยมมากและพวกเขามีผลิตภัณฑ์สำหรับนักขี่ให้เลือกมากมาย"
+        },
+        {
+          "nombre": "Sofía Ruiz",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ในฐานะนักท่องเที่ยว การหาสถานที่เช่า Click 125 ที่ดีเป็นสิ่งสำคัญ และที่นี่ก็ไม่ทำให้ผิดหวัง! พนักงานต้อนรับดีมาก และมอเตอร์ไซค์ก็สมบูรณ์แบบสำหรับในเมือง"
+        },
+        {
+          "nombre": "David Castro",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันเป็นคนกรุงเทพฯ และชอบที่นี่มาก Scoopy ที่ฉันเช่านั้นสะอาดมาก และบริการก็ยอดเยี่ยมเสมอ"
+        },
+        {
+          "nombre": "Camila Ortiz",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "การเดินทางไปกรุงเทพฯ เป็นประสบการณ์ที่ยอดเยี่ยม และการเช่า Click 125 ที่นี่ทำให้ประสบการณ์ดียิ่งขึ้นไปอีก พนักงานเป็นมิตรและให้บริการที่ยอดเยี่ยม"
+        },
+        {
+          "nombre": "Andrés Díaz",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันอาศัยอยู่ในกรุงเทพฯ มาหลายปีแล้วและนี่คือสถานที่ที่ดีที่สุดในการเช่า Scoopy พนักงานเป็นกันเองและมืออาชีพเสมอ"
+        },
+        {
+          "nombre": "Paula Vargas",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันเป็นคนท้องถิ่นและพบทุกสิ่งที่ฉันต้องการที่นี่ ฉันเช่า Click 125 และซื้ออุปกรณ์เสริมบางอย่าง ทั้งหมดนี้ในราคาที่ยอดเยี่ยม"
+        },
+        {
+          "nombre": "Manuel Rojas",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ทำเลที่ตั้งดีเยี่ยม และพนักงานก็ทำให้มั่นใจว่าฉันมีทุกสิ่งที่จำเป็นสำหรับการเดินทางในกรุงเทพฯ Scoopy ที่ฉันเช่านั้นอยู่ในสภาพที่สมบูรณ์แบบ"
+        },
+        {
+          "nombre": "Natalia Romero",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันอาศัยอยู่ในกรุงเทพฯ และนี่คือสถานที่โปรดของฉันในการเช่ามอเตอร์ไซค์ Click 125 นั้นสมบูรณ์แบบ และพนักงานก็เอาใจใส่และช่วยเหลือดีเสมอ"
+        },
+        {
+          "nombre": "José Méndez",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "การมาเยือนกรุงเทพฯ นั้นน่าทึ่ง และการเช่า Scoopy ที่นี่ทำให้มันดียิ่งขึ้น พนักงานเป็นมิตรและมืออาชีพอย่างยิ่ง"
+        },
+        {
+          "nombre": "Valentina Sánchez",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ฉันเป็นคนท้องถิ่นและการเช่า Click 125 ที่นี่เป็นประสบการณ์ที่ไม่ยุ่งยากเสมอ พื้นที่นี้สะดวกและปลอดภัยมาก"
+        },
+        {
+          "nombre": "Santiago Muñoz",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "การอาศัยอยู่ในกรุงเทพฯ เป็นเรื่องที่ดีที่มีสถานที่เชื่อถือได้ในการเช่ามอเตอร์ไซค์ Scoopy อยู่ในสภาพที่สมบูรณ์แบบเสมอ และบริการก็ไร้ที่ติ"
+        },
+        {
+          "nombre": "Gabriela Castillo",
+          "rating": "⭐⭐⭐⭐⭐",
+          "comentario": "ในฐานะผู้มาเยือนกรุงเทพฯ เป็นครั้งแรก การเช่า Click 125 ที่นี่เป็นประสบการณ์ที่ยอดเยี่ยมมาก พนักงานช่วยเหลือดีมากและมอเตอร์ไซค์ก็ดีมาก"
+        }
+      ]
+    },
+    "footer": {
+      "texto": "© 2024 Taopoon Motorbike Rental",
+      "privacidad": "นโยบายความเป็นส่วนตัว",
+      "terminos": "ข้อกำหนดและเงื่อนไข",
+      "contacto": "ติดต่อเรา: 084-123-3094 | 089-161-3094"
+    }
+  }
+}
+  
